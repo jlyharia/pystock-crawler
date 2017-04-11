@@ -174,7 +174,11 @@ Installing Dependencies
 ::
 
     pip install -r requirements.txt
-
+    
+::
+    If can not lauch application due to twiseted package, please refer to https://github.com/scrapy/scrapy/issues/2473
+    pip install 'twisted<15'
+    
 
 Running Test
 ~~~~~~~~~~~~
